@@ -2,15 +2,15 @@
   "images": {
     "base-images": [
       {
-        "date": "2017-10-13",
-        "description": "Cloudbreak official base image",
+        "date": "2018-03-29",
+        "description": "Testing Custom Image",
         "images": {
           "aws": {
             "us-east-1": "ami-0063927a"
           }
         },
-        "os": "amazonlinux",
-        "os_type": "redhat6",
+        "os": "centos",
+        "os_type": "centos7",
         "uuid": "44b140a4-bd0b-457d-b174-e988bee3ca47"
       }
     ]
