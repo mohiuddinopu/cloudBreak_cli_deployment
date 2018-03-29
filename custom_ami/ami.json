@@ -3,7 +3,7 @@
     "base-images": [
       {
         "date": "2018-03-29",
-        "description": "Testing Custom Image",
+        "description": "Cloudbreak custom image",
         "images": {
           "aws": {
             "us-east-1": "ami-0063927a"
@@ -12,6 +12,19 @@
         "os": "centos",
         "os_type": "centos7",
         "uuid": "44b140a4-bd0b-457d-b174-e988bee3ca47"
+      },
+    ]
+},
+  "versions": {
+    "cloudbreak": [
+      {
+        "images": [
+          "44b140a4-bd0b-457d-b174-e988bee3ca47",
+          "f6e778fc-7f17-4535-9021-515351df3692"
+        ],
+        "versions": [
+          "2.4.0"
+        ]
       }
     ]
   }
