@@ -1,0 +1,33 @@
+{
+   "headers": {
+        "Content-Type": "application/json;type=text/plain;charset=utf-8"
+   },
+  "images": {
+    "base-images": [
+      {
+        "date": "2018-03-29",
+        "description": "Cloudbreak custom image",
+        "images": {
+          "aws": {
+            "us-east-1": "ami-0063927a"
+          }
+        },
+        "os": "centos7",
+        "os_type": "redhat7",
+        "uuid": "ff0bd821-9830-4cd9-b813-387588a6ed1e"
+      }
+    ]
+},
+  "versions": {
+    "cloudbreak": [
+      {
+        "images": [
+          "ff0bd821-9830-4cd9-b813-387588a6ed1e"
+        ],
+        "versions": [
+          "2.4.0"
+        ]
+      }
+    ]
+  }
+}
