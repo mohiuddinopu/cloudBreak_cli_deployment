@@ -1,4 +1,7 @@
 {
+   "headers": {
+        "Content-Type": "application/json"
+   },
   "images": {
     "base-images": [
       {
@@ -9,9 +12,9 @@
             "us-east-1": "ami-0063927a"
           }
         },
-        "os": "centos",
-        "os_type": "centos7",
-        "uuid": "44b140a4-bd0b-457d-b174-e988bee3ca47"
+        "os": "centos7",
+        "os_type": "redhat7",
+        "uuid": "ff0bd821-9830-4cd9-b813-387588a6ed1e"
       }
     ]
 },
@@ -19,7 +22,7 @@
     "cloudbreak": [
       {
         "images": [
-          "44b140a4-bd0b-457d-b174-e988bee3ca47"
+          "ff0bd821-9830-4cd9-b813-387588a6ed1e"
         ],
         "versions": [
           "2.4.0"
